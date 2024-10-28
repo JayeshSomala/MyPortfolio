@@ -14,7 +14,8 @@ export const PProjects = () => {
       title: "Internship at OTPLess",
       description: "Web Design and Development",
       imgUrl: projImg1,
-      link : "https://otpless.com/docs/introduction"
+      link : "https://otpless.com/docs/introduction",
+      codelink : ""
     },
     {
       title: "Gourmet Site",
