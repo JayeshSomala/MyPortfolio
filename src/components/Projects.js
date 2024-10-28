@@ -1,8 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/image_pranjal_1.PNG";
-import projImg2 from "../assets/img/image_pranjal_2.PNG";
-import projImg3 from "../assets/img/image_pranjal_3.PNG";
+import projImg1 from "../assets/img/image1.png";
+import projImg2 from "../assets/img/image5.png";
+import projImg3 from "../assets/img/image2.png";
+import projImg4 from "../assets/img/image.png";
+import projImg5 from "../assets/img/image_pranjal_4.PNG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,59 +13,49 @@ export const Projects = () => {
 
   const projects1 = [
     {
-      title: "Internship at OTPLess",
+      title: "BigBuddy AI",
       description: "Web Design and Development",
       imgUrl: projImg1,
-      link : "https://otpless.com/docs/introduction",
-      codelink : ""
+      link : "https://bigbuddy.in"
     },
     {
-      title: "Gourmet Site",
+      title: "BMSCE Alumini Page",
       description: "Web Design & Development",
       imgUrl: projImg2,
-      link : "https://pranjalshinde16.github.io/Food-Website/"
+      link : "https://alumni.bmsce.in/",
+      codelink : "https://github.com/JayeshSomala/bmsceAlumniNetwork"
     },
     {
-      title: "Pet Care and Innovation",
+      title: "Ise Resarch Paper submission Portal",
       description: "Web Design & Development",
       imgUrl: projImg3,
-      link : "https://pranjalshinde16.github.io/Tindog-Website-Trial/"
+      codelink : "https://github.com/ciie-projects/research-paper-ise"
     },
   ];
 
   const projects2 = [
     {
-      title: "Business Startup",
+      title: "Hatty-Hood Ecommerce Site",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
+      codelink : "https://github.com/JayeshSomala/Reacj-project"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Ecommerce Site",
+      description: "Collaborative:Website Design & Development",
+      imgUrl: projImg5,
+      link : "https://gitlab.com/jp2720728/React-based-complete-application",
+      codelink : "https://gitlab.com/jp2720728/React-based-complete-application"
     },
   ];
 
   const projects3 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Ecommerce Site",
+      description: "Collaborative:Website Design & Development",
+      imgUrl: projImg5,
+      link : "https://gitlab.com/jp2720728/React-based-complete-application",
+      codelink : "https://gitlab.com/jp2720728/React-based-complete-application"
     },
   ];
 
