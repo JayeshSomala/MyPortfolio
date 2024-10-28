@@ -9,7 +9,7 @@ import {
   BrowserRouter as Router
 } from "react-router-dom";
 
-export const NavBar = () => {
+export const PNavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
