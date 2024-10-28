@@ -59,9 +59,8 @@ export const MainPage = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h1>{``} <span className="txt-rotate" dataPeriod="300" data-rotate='[ "Welcome to our Portfolio" ]'><span className="wrap">{text}</span></span></h1>
                   <p style={{marginBottom:"50px"}}><b style={{color:"white"}}>Your Vision, Our Expertise</b><br/><br/> If you need someone who’ll roll up their sleeves and dive into the details with you, we are there. Let’s make something great, one step at a time. Explore our work to see the skills and projects.</p>
-                  <span className="tagline">Jayesh's Portfolio</span>
-                  <span style={{marginLeft:"50px"}} className="tagline">Pranjal's Portfolio</span>
-                  <Link to="/investInHer">Home</Link>
+                  <Link to="/investInHim"><span style={{color:"white"}} className="tagline">Jayesh's Portfolio</span></Link>
+                  <Link to="/investInHer"><span style={{marginLeft:"50px",color:"white"}} className="tagline">Pranjal's Portfolio</span></Link>
               </div>}
             </TrackVisibility>
           </Col>

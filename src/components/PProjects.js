@@ -72,16 +72,6 @@ export const PProjects = () => {
       codelink:
         "https://drive.google.com/file/d/1DET1VqJ01XuYdWln0nhtMav6fRYKyxa6/view?usp=drive_link",
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
   ];
 
   return (
