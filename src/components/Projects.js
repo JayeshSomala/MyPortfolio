@@ -5,6 +5,7 @@ import projImg2 from "../assets/img/image5.png";
 import projImg3 from "../assets/img/image2.png";
 import projImg4 from "../assets/img/image.png";
 import projImg5 from "../assets/img/image_pranjal_4.PNG";
+import projImg7 from "../assets/img/image_pranjal_7.PNG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -47,6 +48,13 @@ export const Projects = () => {
       link : "https://gitlab.com/jp2720728/React-based-complete-application",
       codelink : "https://gitlab.com/jp2720728/React-based-complete-application"
     },
+    {
+      title: "Car Price Prediction Model",
+      description: "Machine Learning and Artificial Intelligence Project",
+      imgUrl: projImg7,
+      link: "https://github.com/PranjalShinde16/Car-Price-Prediction-Model",
+      codelink: "https://github.com/PranjalShinde16/Car-Price-Prediction-Model",
+    }
   ];
 
   const projects3 = [
