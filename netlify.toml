@@ -3,6 +3,7 @@
   publish = "build"
 
 [[redirects]]
-  from = "/MyPortfolio/*"
-  to = "/MyPortfolio/index.html"
+  from = "/*"
+  to = "/index.html"
   status = 200
+
