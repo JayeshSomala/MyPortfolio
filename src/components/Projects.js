@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/image.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/image_pranjal_1.PNG";
+import projImg2 from "../assets/img/image_pranjal_2.PNG";
+import projImg3 from "../assets/img/image_pranjal_3.PNG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,19 +11,23 @@ export const Projects = () => {
 
   const projects1 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Internship at OTPLess",
+      description: "Web Design and Development",
       imgUrl: projImg1,
+      link : "https://otpless.com/docs/introduction",
+      codelink : ""
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Gourmet Site",
+      description: "Web Design & Development",
       imgUrl: projImg2,
+      link : "https://pranjalshinde16.github.io/Food-Website/"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Pet Care and Innovation",
+      description: "Web Design & Development",
       imgUrl: projImg3,
+      link : "https://pranjalshinde16.github.io/Tindog-Website-Trial/"
     },
   ];
 
