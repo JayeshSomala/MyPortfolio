@@ -28,7 +28,7 @@ export const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /> Lorem Ipsum has been the industry's standard dummy text.</p>
+              <p>Presenting a multifaceted skill set dedicated to enhancing functionality and aesthetics in web development</p>
               <div className="skills-container">
                 {skills.map((skill, index) => (
                   <div key={index} className="skill-bar">
