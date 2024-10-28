@@ -33,7 +33,7 @@ export const PContact = () => {
   };
 
   return (
-    <section className="contact" id="connect">
+    <section style={{paddingBottom:"75px"}} className="contact" id="connect">
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
