@@ -3,6 +3,12 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/image_pranjal_1.PNG";
 import projImg2 from "../assets/img/image_pranjal_2.PNG";
 import projImg3 from "../assets/img/image_pranjal_3.PNG";
+import projImg4 from "../assets/img/image_pranjal_4.PNG";
+import projImg5 from "../assets/img/image_pranjal_5.PNG";
+import projImg6 from "../assets/img/image_pranjal_6.PNG";
+import projImg7 from "../assets/img/image_pranjal_7.PNG";
+
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -15,45 +21,55 @@ export const PProjects = () => {
       description: "Web Design and Development",
       imgUrl: projImg1,
       link : "https://otpless.com/docs/introduction",
-      codelink : ""
+      codelink : "https://github.com/PranjalShinde16/OTPLess"
     },
     {
       title: "Gourmet Site",
       description: "Web Design & Development",
       imgUrl: projImg2,
-      link : "https://pranjalshinde16.github.io/Food-Website/"
+      link : "https://pranjalshinde16.github.io/Food-Website/",
+      codelink : "https://github.com/PranjalShinde16/Food-Website"
     },
     {
       title: "Pet Care and Innovation",
       description: "Web Design & Development",
       imgUrl: projImg3,
-      link : "https://pranjalshinde16.github.io/Tindog-Website-Trial/"
+      link : "https://pranjalshinde16.github.io/Tindog-Website-Trial/",
+      codelink : "https://github.com/PranjalShinde16/Tindog-Website-Trial"
     },
   ];
 
   const projects2 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Ecommerce Site",
+      description: "Collaborative:Website Design & Development",
+      imgUrl: projImg4,
+      link : "https://gitlab.com/jp2720728/React-based-complete-application",
+      codelink : "https://gitlab.com/jp2720728/React-based-complete-application"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Product Ideation",
+      description: "Creating product ideation",
+      imgUrl: projImg5,
+      link : "https://drive.google.com/file/d/1DET1VqJ01XuYdWln0nhtMav6fRYKyxa6/view?usp=drive_link",
+      codelink : "https://drive.google.com/file/d/1DET1VqJ01XuYdWln0nhtMav6fRYKyxa6/view?usp=drive_link"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Designing Porfolio",
+      description: "Must View Graphic Design Portfolio",
+      imgUrl: projImg6,
+      link : "https://drive.google.com/file/d/1WkAhXYPW3d_afCnsYqh-8z9RfmZ_u8pB/view?usp=sharing",
+      codelink : "https://drive.google.com/file/d/1WkAhXYPW3d_afCnsYqh-8z9RfmZ_u8pB/view?usp=sharing"
     },
   ];
 
   const projects3 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Car Price Prediction Model",
+      description: "Machine Learning and Artificial Intelligence Project",
+      imgUrl: projImg7,
+      link : "https://github.com/PranjalShinde16/Car-Price-Prediction-Model",
+      codelink : "https://github.com/PranjalShinde16/Car-Price-Prediction-Model"
     },
     {
       title: "Business Startup",
