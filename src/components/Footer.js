@@ -15,9 +15,9 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/jayesh-somala-9a9b97211/" target="_blank"><img src={navIcon1} alt="Icon" /></a>
-              <a href="https://github.com/JayeshSomala" target="_blank"><img src={navIcon2} alt="Icon" /></a>
-              <a href="https://jayeshsomala.hashnode.dev/" target="_blank"><img src={navIcon4} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/in/jayesh-somala-9a9b97211/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://github.com/JayeshSomala" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="Icon" /></a>
+              <a href="https://jayeshsomala.hashnode.dev/" target="_blank" rel="noopener noreferrer"><img src={navIcon4} alt="Icon" /></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
